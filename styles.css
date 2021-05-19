@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+:root {
+    --primary-color: #000a12;
+    --secondary-color: #fafafa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {   
+    padding: 1rem 3rem;
+    margin: 2rem;
+    box-shadow: 2px 2px 5px  #a3b1b950,
+    -2px -2px 5px #a3b1b950;
+    border-radius: 5px;
+}
+
+.head {
+    text-align: center;
+    margin: 0.5rem 0 2rem 0;
+}
+
+
+.form-container {
+    font-size: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #888;
+}
+
+.form-group input {
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.9rem;
+    outline: none;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input:focus {
+    border: 1px solid #44444470;
+}
+
+.btn {
+    padding: 0.5rem 0.75rem;
+    margin: 1.5rem auto 1rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.btn-light {
+    background: #a3b1b9;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.alert {
+    color: red;
+}
+
+.form-group.show-error input {
+    border: 1px solid #ff0000;
+}
+
+
+
+
+
