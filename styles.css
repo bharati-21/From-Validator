@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 :root {
     --primary-color: #000a12;
     --secondary-color: #fafafa;
@@ -63,6 +64,7 @@ a {
     margin-bottom: 0.5rem;
 }
 
+
 .form-group input:focus {
     border: 1px solid #44444470;
 }
@@ -92,6 +94,10 @@ a {
     color: red;
 }
 
+/* .alert.tooltip {
+    font-size: 0.8rem;
+} */
+
 .form-group.show-error input {
     border: 2px solid #ff0000;
 }
@@ -99,8 +105,14 @@ a {
 .form-group.show-success input {
     border: 2px solid #00cc00;
 }
-
-
+/* 
+.tooltip {
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    cursor :help;
+    position: relative;
+} */
 
 
 
